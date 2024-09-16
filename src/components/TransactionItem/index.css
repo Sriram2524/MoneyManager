@@ -1,0 +1,28 @@
+/* Write your CSS here */
+.list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-left: 1px solid #7e858e;
+  border-right: 1px solid #7e858e;
+  border-bottom: 1px solid #7e858e;
+  border-top: none;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 4px;
+  width: 100%;
+}
+.para {
+  color: #1e293b;
+  font-size: 20px;
+  font-family: roboto;
+  padding-right: 40px;
+  padding-left: 40px;
+}
+.delete-button {
+  background-color: transparent;
+  border-width: 0px;
+}
+.delete-img {
+  width: 30px;
+}
